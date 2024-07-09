@@ -14,10 +14,12 @@ const Projects = () => {
         <span className="projectsDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel prefect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.</span>
 
         <div className="projectsImgs">
-            <img src={Portfolio1} alt="" className="projectsImg" />
-            <img src={Portfolio2} alt="" className="projectsImg" />
-            <img src={Portfolio3} alt="" className="projectsImg" />
-            <img src={Portfolio4} alt="" className="projectsImg" />
+          <a href='https://frontend-zpv2.onrender.com/'><img src={Portfolio1} alt="" className="projectsImg" /></a>
+          <a href='https://airline-booking-system.onrender.com/'> <img src={Portfolio2} alt="" className="projectsImg" /></a>
+          <a href='https://online-food-delivery-f2tc.onrender.com/'> <img src={Portfolio3} alt="" className="projectsImg" /></a>
+          <a href='https://portfolio-7jwu.onrender.com/'><img src={Portfolio4} alt="" className="projectsImg" /></a>
+            
+            
             {/* <img src={Portfolio5} alt="" className="projectsImg" />
             <img src={Portfolio6} alt="" className="projectsImg" /> */}
         </div>

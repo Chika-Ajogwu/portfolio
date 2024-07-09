@@ -37,6 +37,7 @@
     width: 15rem;
     margin: 0.5rem;
     border-radius: 0.55rem;
+    cursor: pointer;
 }
 
 .projectBtn {
